@@ -28,15 +28,15 @@ root["bg"]="black"
 root.geometry("400x150")
 
 
-username_label = tk.Label(root, text="product")
-username_label.pack()
-username_entry = tk.Entry(root)
-username_entry.pack()
+product_label = tk.Label(root, text="product")
+product_label.pack()
+product_entry = tk.Entry(root)
+product_entry.pack()
 
-password_label = tk.Label(root, text="Price")
-password_label.pack()
-password_entry = tk.Entry(root, show="*")
-password_entry.pack()
+price_label = tk.Label(root, text="Price")
+price_label.pack()
+price_entry = tk.Entry(root, show="*")
+price_entry.pack()
 
 
 login_button = tk.Button(root, text="Delete", command=delete)
